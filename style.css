@@ -23,29 +23,49 @@ body {
     text-align: center;
     height: 90vh;
 }
+input {
+    width: 50vw;
+    height: 30px;;
+    border-radius: 20px;
+    margin: 15px;
+    border: 1px solid lightgray;
+    
+}
 .img-go {
     padding-top: 20vh;
 }
 .search-go {
     margin: 0 auto;
     display: inline-block;
+
     
 }
 
 button {
-    width: 80px;
-    height: 30px;;
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    border-color: transparent;
 }
+
 
 .search-go li {
     float: left;
     list-style-type: none;
-    padding: 5px;
+    margin-left: 30px;
+    padding-top: 10px;;
+    padding-left: 30px;
+    
+    
+    
 }
+
 .footer  {
     display: flex;
-    /* justify-content: space-between; */
+    background-color: lightgray;
     width: 100%;
+    height: 5vh;
+    align-items: center;
 
 }
 .footer a {
